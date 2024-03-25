@@ -43,8 +43,8 @@ else if(grossSalary >800000){
         }
         else if(grossSalary >14999 && grossSalary <= 19999){
             return 600
-        }else if(grossSalary >19999 && grossSalary <= 24999){
-            return 750
+        
+             
         }else if (grossSalary >24999 && grossSalary <= 29999){
              return 850
         }
@@ -79,7 +79,9 @@ else if(grossSalary >800000){
             return 1700
         }
 
-   
+        else if(grossSalary >19999 && grossSalary <=24999){
+            return 300
+        }
         }
         function nssfDeductions(){//function to calculate nssf deductions based on pensionable pay
             if(pensionablePay <=7000){
@@ -90,8 +92,11 @@ else if(grossSalary >800000){
     }
     } 
 
+    return calculateNetSalary=grossSalary-(monthlyTaxRate+nssfDeductions+nhifDeductions)//Calculations to obtain net salary
 
 
- return calculateNetSalary=grossSalary-(monthlyTaxRate+nssfDeductions+nhifDeductions)//Calculations to obtain net salary
 }
+
+return calculateNetSalary=grossSalary-(monthlyTaxRate+nssfDeductions+nhifDeductions)//Calculations to obtain net salary
+
 

@@ -1,0 +1,15 @@
+{
+  "name": "challenge3",
+  "version": "1.0.0",
+  "description": "#### Date, 24/03/2024",
+  "main": "salarycalculator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}

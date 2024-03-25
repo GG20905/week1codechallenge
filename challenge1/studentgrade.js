@@ -1,9 +1,9 @@
-let userInput = prompt("Please enter a number:");
-let number = parseFloat(userInput); // Convert the input to a floating-point number
-console.log("User input as number:", number);
+const prompt = require('prompt-sync')();
+let userInput = prompt("Please enter marks:");
+let marks = parseFloat(userInput); // Convert the input to a floating-point number
 
 
-function studentGrades(marks){
+
 
 if( marks >=79){
     return console.log('A')
@@ -20,6 +20,6 @@ else if(marks>49 && marks >=40){
 else if (marks>40){
     return console.log('E')
 }
-}
+
 
 
