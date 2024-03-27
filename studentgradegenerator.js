@@ -1,4 +1,4 @@
-const grades=50
+const grades=50//constant grade to be used 
 if(grades>79 && grades <=100){
     console.log('A')
 }if(grades>=60 && grades <=79){
