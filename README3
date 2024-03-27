@@ -5,7 +5,7 @@
 #### By *Githinji Mugambi Gathungu*
 
 ## Description
-It's a program used to calculate the net salary of an individual based of their gross salary and the deductions made which are NHIF deductions,NSSF deductions, and Tax according to their gross salary.
+It's a program that is used to calculate the net salary of an indivial from gross salary,taxes,NHIF deductions and NSSF deductions
 
 ## Installation
 You use git clone to be able to download the documents in the GitHub
@@ -17,7 +17,6 @@ Git
 ```
 Git clone https://github.com/GG20905/week1codechallenge
 
-
 ```
 
 # Live Link
@@ -25,6 +24,7 @@ Git clone https://github.com/GG20905/week1codechallenge
 
 ## Technologies used
 
+Github
 Javascript
 
 ## Support and contact details

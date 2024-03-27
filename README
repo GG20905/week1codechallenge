@@ -1,11 +1,11 @@
-# (Student Grade generator)
+# (Speed Generator)
 
-#### Date, 24/3/2024
+#### Date, 24/03/2024
 
 #### By *Githinji Mugambi Gathungu*
 
 ## Description
-It's a program used to assist teachers in grading students based on the marks provided.
+It's a program that is used to detect the speed of vehicles on the road,assign them points based on their speed and terminate the licence of those overspeeding
 
 ## Installation
 You use git clone to be able to download the documents in the GitHub
@@ -23,8 +23,8 @@ Git clone https://github.com/GG20905/week1codechallenge
 [Git](gh-pages link)
 
 ## Technologies used
-HTML
-CSS
+
+
 Github
 Javascript
 
