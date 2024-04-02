@@ -22,6 +22,7 @@ function NetSalary(basicSalary,benefits){
         netSalary
     }
 }
+//display of returned solutions
 const display=NetSalary(basicSalary,benefits)
 console.log("grossSalary:",display.grossSalary)
 console.log("NHIFDeductions:",display.grossSalary)
